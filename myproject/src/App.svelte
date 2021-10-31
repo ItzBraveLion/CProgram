@@ -1,6 +1,6 @@
 <script>
 	let name="I am a Lion";
-	let FavColor="Yellow";
+	let FavColor="Blue";
 
 	const handleClick=()=>{
 		FavColor="Yellow";

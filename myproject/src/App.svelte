@@ -1,5 +1,5 @@
 <script>
-	let name="Himanshu";
+	let name="I am a Lion";
 	let FavColor="Yellow";
 
 	const handleClick=()=>{

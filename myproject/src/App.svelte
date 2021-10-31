@@ -2,7 +2,7 @@
 	let name="Lion";
 	let FavColor="Blue";
 
-	const handleClick=()=>{
+	const Handle=()=>{
 		FavColor="Yellow";
 	}
 	// const handleInput=(e)=>{
@@ -13,7 +13,7 @@
 <main>
 	<h1>Myself {name}!</h1>
 	<p style="color: {FavColor}">{FavColor}</p>
-	<button on:click={handleClick}>Update Fav Color</button>
+	<button on:click={Handle}>Update Fav Color</button>
 	<!-- For single way binding remove value -->
 	<!-- <input type="text" on:input={handleInput} value={FavColor}> -->
 

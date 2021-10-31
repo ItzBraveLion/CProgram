@@ -1,5 +1,5 @@
 <script>
-	let name="I am a Lion";
+	let name="Lion";
 	let FavColor="Blue";
 
 	const handleClick=()=>{
@@ -11,7 +11,7 @@
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
+	<h1>Myself {name}!</h1>
 	<p style="color: {FavColor}">{FavColor}</p>
 	<button on:click={handleClick}>Update Fav Color</button>
 	<!-- For single way binding remove value -->
